@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Recipe Haven</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+
+  </head>
+  <body>
+
+    <header>
+      <nav> 
+        <div class="logo">
+            <a href="#">Recipe Haven</a>
+         </div>
+      <form>
+       <input type="text" name="searchBox" id="searchBox" placeholder="search your recipe.." value="" /> 
+
+       <button type="submit"  id="searchBtn">search</button>
+       <button class="login-btn"><a href="login.html">Login</a></button>
+       <button class="login-btn"><a href="register.html">Register</a></button>
+      </form>
+      </nav>
+    </header>
+    
+    <!-- Banner Section -->
+     <section class="banner">
+        <img src="https://cdn.media.amplience.net/i/Brakes/italian-cuisine-asset-desktop-1200?$ca-hero-banner$&fmt=auto" alt="Banner" class="banner-img">
+        </section>
+
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <h1>About Us</h1>
+        <div class="content">
+          <div class="image-placeholder">
+            <img src="logo2.PNG" alt="About Us Image">
+          </div>
+          <div class="description">
+            <h3>Description</h3>
+            <p>
+                Welcome to Recipe Haven, your ultimate destination for culinary inspiration and delightful recipes from around the world. At Recipe Haven, we believe that cooking is more than just preparing food – it's an art, a science, and a way to bring people together. Whether you’re a seasoned chef or a beginner in the kitchen, our curated collection of recipes is designed to spark your creativity and make every meal memorable.
+
+                From quick weeknight dinners to indulgent desserts, our easy-to-follow recipes are crafted with love and tested for perfection. We’re passionate about sharing tips, techniques, and ideas that help you cook with confidence and explore new flavors. Join our community of food enthusiasts, and let’s create something delicious together. Welcome to your haven for all things food!
+                
+                
+                
+                
+                
+                
+                
+                
+            </p>
+          </div>
+        </div>
+      </section>
+
+        <!-- Latest Recipes Section -->
+        <section class="latest-recipes">
+            <div class="recipes-header">
+                <h3>Our Latest Recipes</h3>
+            </div>
+            <div class="recipes-container">
+                <div class="recipe_card"> 
+                    <img src="https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg">
+                    <div class="recipe_description">
+                        <h2> Tandoori Chicken</h2>
+                        <h3>  <span> Indian </span>  dish</h3>
+                        <h5> belongs to <span> Chicken</span> category </h5>
+                        <h6>Search to get more info..</h6>
+                    </div>
+                </div>
+                <div class="recipe_card"> 
+                    <img src="https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg">
+                    <div class="recipe_description">
+                        <h2> Pizza Express Margherita</h2>
+                        <h3>  <span> Italian </span>  dish</h3>
+                        <h5> belongs to <span> Pizza</span> category </h5>
+                        <h6>Search to get more info..</h6>
+                    </div>
+                </div>
+                <div class="recipe_card"> 
+                    <img src="https://www.themealdb.com/images/media/meals/vvpprx1487325699.jpg">
+                    <div class="recipe_description">
+                        <h2> Beef Wellington</h2>
+                        <h3>  <span> British </span>  dish</h3>
+                        <h5> belongs to <span> Beef</span> category </h5>
+                        <h6>Search to get more info..</h6>
+                    </div>
+                </div>
+                <div class="recipe_card"> 
+                    <img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg">
+                    <div class="recipe_description">
+                        <h2> Spaghetti alla Carbonara</h2>
+                        <h3>  <span> Italian </span>  dish</h3>
+                        <h5> belongs to <span> Pasta</span> category </h5>
+                        <h6>Search to get more info..</h6>
+                    </div>
+                </div>
+                <div class="recipe_card"> 
+                    <img src="https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg">
+                     <div class="recipe_description">
+                        <h2> Creamy Tomato Soup</h2>
+                        <h3>  <span> British </span>  dish</h3>
+                        <h5> belongs to <span> Starter</span> category </h5>
+                        <h6>Search to get more info..</h6>
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+        
+
+
+
+   <article class="preloader">
+
+      </article>
+      <main>
+
+        <section>
+          <div class="recipes_container">
+  
+  
+        <h3 class="errormsg"> error msg</h3>
+  
+          </div>
+  
+          <div class="recipe_details">
+             <i class="fas fa-window-close recipeCloseBtn"></i>
+  
+             <div class="recipe_content">
+          </div> 
+  
+          </div>
+  
+        </section>
+  
+  
+      </main>
+  
+
+ <script src="app.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript" charset="utf-8">
+    const preloader = document.querySelector(".preloader");
+window.onload = ()=>{
+
+    preloader.classList.add("preloader_hidden");
+}
+  </script>
+
+<footer class="footer">
+    <p>&copy; 2025 Recipe Haven. All Rights Reserved.</p>
+</footer>
+
+   </body>
+
+</html>
